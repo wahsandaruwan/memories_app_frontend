@@ -150,11 +150,11 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  cursor: pointer !important;
 }
 
 .login-register-form .input-check > label{
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .login-register-form .input-check > label > span {

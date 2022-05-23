@@ -1,9 +1,12 @@
+// Custom modules
+import { PropTypes } from "prop-types"
+
 // Custom components
 import InputBox from "../Elements/InputBox"
 import InputCheck from "../Elements/InputCheck"
 import MainButton from "../Elements/MainButton"
 
-const Login = () => {
+const Login = ({ formStateToggleFunc }) => {
     return (
         <>
             <div className="login-register-section">
@@ -16,11 +19,21 @@ const Login = () => {
                         <label htmlFor="agree-box">Remember Me</label>
                     </div>
                     <MainButton buttonText="Login" />
-                    <a className="to-reg" href="#">Create a New Account</a>
+                    <a className="to-reg" href="#" onClick={() => formStateToggleFunc(false)}>Create a New Account</a>
                 </div>
             </div>
         </>
     )
+}
+
+// Type checking
+Login.propTypes = {
+    formStateToggleFunc: PropTypes.func.isRequired
+}
+
+// Default values
+Login.defaultProps = {
+    formStateToggleFunc: () => console.log("Toggle Form")
 }
 
 export default Login
