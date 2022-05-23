@@ -10,7 +10,7 @@ const App = () => {
       <div className="background"></div>
       <div className="overlay"></div>
       {
-        toggleLoginRegister ? <Login formStateToggleFunc={setToggleLoginRegister} /> : <Register />
+        toggleLoginRegister ? <Login formStateToggleFunc={setToggleLoginRegister} /> : <Register formStateToggleFunc={setToggleLoginRegister} />
       }
     </>
   )
