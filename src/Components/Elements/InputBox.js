@@ -14,10 +14,11 @@ const style = {
     backgroundColor: "#ffffff",
     width: "100%",
     maxWidth: "450px",
-    padding: "10px",
-    fontSize: "0.9rem",
+    padding: "12px",
+    fontSize: "0.95rem",
     outline: "none",
-    border: "1px solid #000000"
+    border: "1px solid #636e72",
+    borderRadius: "10px"
 }
 
 // Type checking
