@@ -4,13 +4,13 @@ import { PropTypes } from "prop-types"
 const InputBox = ({ inputType, inputValue, inputPlaceholder }) => {
     return (
         <>
-            <input style={style} type={inputType} value={inputValue} placeholder={inputPlaceholder} />
+            <input className="input-custom" style={basicStyles} type={inputType} value={inputValue} placeholder={inputPlaceholder} />
         </>
     )
 }
 
 // Basic styling
-const style = {
+const basicStyles = {
     backgroundColor: "#ffffff",
     minWidth: "200px",
     padding: "12px",
@@ -23,7 +23,7 @@ const style = {
 // Type checking
 InputBox.propTypes = {
     inputType: PropTypes.string.isRequired,
-    inputValue: PropTypes.string.isRequired,
+    inputValue: PropTypes.string,
     inputPlaceholder: PropTypes.string.isRequired
 }
 
