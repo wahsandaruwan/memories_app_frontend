@@ -1,10 +1,10 @@
 // Custom modules
 import { PropTypes } from "prop-types"
 
-const MainButton = ({ buttonTxt, clickFunc }) => {
+const MainButton = ({ buttonText, clickFunc }) => {
     return (
         <>
-            <div className="button-custom" style={basicStyles} onClick={clickFunc}>{buttonTxt}</div>
+            <div className="button-custom" style={basicStyles} onClick={clickFunc}>{buttonText}</div>
         </>
     )
 }
@@ -14,8 +14,10 @@ const basicStyles = {
     display: "inline",
     backgroundColor: "#2d3436",
     color: "#ffffff",
-    padding: "12px 20px",
-    fontSize: "0.9rem",
+    padding: "10px 20px",
+    margin: "5px",
+    fontSize: "1rem",
+    textAlign: "center",
     outline: "none",
     border: "1px solid #2d3436",
     borderRadius: "10px",
@@ -24,14 +26,14 @@ const basicStyles = {
 
 // Type checking
 MainButton.propTypes = {
-    buttonTxt: PropTypes.string.isRequired,
+    buttonText: PropTypes.string.isRequired,
     clickFunc: PropTypes.func.isRequired
 }
 
 // Default values
 MainButton.defaultProps = {
-    buttonTxt: "Click Me",
-    clickFunc: () => { console.log("Button Clicked!") }
+    buttonText: "Click Me",
+    clickFunc: () => console.log("Button Clicked!")
 }
 
 export default MainButton

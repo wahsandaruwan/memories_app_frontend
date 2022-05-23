@@ -1,12 +1,10 @@
-import InputBox from "./Components/Elements/InputBox";
-import MainButton from "./Components/Elements/MainButton";
+import Login from "./Components/Sections/Login"
 
 const App = () => {
   return (
     <>
       <div>
-        <InputBox />
-        <MainButton />
+        <Login />
       </div>
     </>
   )

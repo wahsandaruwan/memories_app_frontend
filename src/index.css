@@ -1,5 +1,77 @@
+/* ----------------Google Fonts---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* ----------------Reset---------------- */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ----------------Common---------------- */
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../public/assets/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+/* ----------------Home Page---------------- */
+/* -----------Login Section----------- */
+.login-section{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form{
+  width: 100%;
+  max-width: 350px;
+  background-color: #d9d9da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* Heading */
+.login-form .section-heading{
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2d3436;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* Inputs & Buttons */
+.login-form .input-custom,
+.login-form .button-custom{
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form .input-custom:focus{
+  background-color: #ffeaa7 !important;
+}
+
+.login-form .button-custom:hover{
+  background-color: #eb832e !important;
+  border-color: #eb832e !important;
+  color: #2d3436 !important;
 }
