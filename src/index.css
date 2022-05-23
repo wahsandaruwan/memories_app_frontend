@@ -94,8 +94,8 @@ a {
 }
 
 /* ----------------Home Page---------------- */
-/* -----Login Section----- */
-.login-section{
+/* -----Login & Register Sections----- */
+.login-register-section{
   position: relative;
   z-index: 99;
   width: 100%;
@@ -105,7 +105,7 @@ a {
   align-items: center;
 }
 
-.login-form{
+.login-register-form{
   width: 100%;
   max-width: 350px;
   background-color: #d9d9da;
@@ -118,7 +118,7 @@ a {
 }
 
 /* Heading */
-.login-form .section-heading{
+.login-register-form .section-heading{
   width: 100%;
   font-size: 2rem;
   font-weight: 700;
@@ -129,23 +129,23 @@ a {
 }
 
 /* Inputs, Buttons & Links */
-.login-form .input-custom,
-.login-form .button-custom{
+.login-register-form .input-custom,
+.login-register-form .button-custom{
   width: 100%;
   transition: all 0.3s ease-in-out;
 }
 
-.login-form .input-custom:focus{
+.login-register-form .input-custom:focus{
   background-color: #ffeaa7 !important;
 }
 
-.login-form .button-custom:hover{
+.login-register-form .button-custom:hover{
   background-color: #eb832e !important;
   border-color: #eb832e !important;
   color: #2d3436 !important;
 }
 
-.login-form .input-check{
+.login-register-form .input-check{
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -153,11 +153,16 @@ a {
   cursor: pointer !important;
 }
 
-.login-form .input-check > label{
+.login-register-form .input-check > label{
   margin-left: 10px;
 }
 
-.login-form .to-reg:hover{
+.login-register-form .input-check > label > span {
+  color: #310e0e;
+  text-decoration: underline;
+}
+
+.login-register-form .to-reg:hover{
   color: #000000;
   transform: translateY(2px);
 }
