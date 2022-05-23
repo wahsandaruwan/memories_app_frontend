@@ -3,9 +3,9 @@ import Login from "./Components/Sections/Login"
 const App = () => {
   return (
     <>
-      <div>
-        <Login />
-      </div>
+      <div className="background"></div>
+      <div className="overlay"></div>
+      <Login />
     </>
   )
 }
