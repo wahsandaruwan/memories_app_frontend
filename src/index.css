@@ -35,9 +35,11 @@ p {
 
 /* -----Links----- */
 a {
+  margin: 5px;
   text-decoration: none;
   font-size: 0.9rem;
   color: #2d3436;
+  transition: all 0.3s ease-in-out;
 }
 
 /* -----Background----- */
@@ -118,7 +120,6 @@ a {
 /* Heading */
 .login-form .section-heading{
   width: 100%;
-  color: #2d3436;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
@@ -127,7 +128,7 @@ a {
   margin-left: 0.5rem;
 }
 
-/* Inputs & Buttons */
+/* Inputs, Buttons & Links */
 .login-form .input-custom,
 .login-form .button-custom{
   width: 100%;
@@ -142,4 +143,9 @@ a {
   background-color: #eb832e !important;
   border-color: #eb832e !important;
   color: #2d3436 !important;
+}
+
+.login-form .to-reg:hover{
+  color: #000000;
+  transform: translateY(2px);
 }
