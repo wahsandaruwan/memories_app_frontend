@@ -12,8 +12,7 @@ const InputBox = ({ inputType, inputValue, inputPlaceholder }) => {
 // Basic styling
 const style = {
     backgroundColor: "#ffffff",
-    width: "100%",
-    maxWidth: "450px",
+    minWidth: "200px",
     padding: "12px",
     fontSize: "0.95rem",
     outline: "none",

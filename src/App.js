@@ -3,7 +3,9 @@ import InputBox from "./Components/Elements/InputBox";
 const App = () => {
   return (
     <>
-      <InputBox />
+      <div>
+        <InputBox />
+      </div>
     </>
   )
 }
