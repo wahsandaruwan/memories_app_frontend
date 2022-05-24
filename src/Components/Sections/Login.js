@@ -7,11 +7,11 @@ import InputBox from "../Elements/InputBox"
 import InputCheck from "../Elements/InputCheck"
 import MainButton from "../Elements/MainButton"
 
-const Login = ({ formStateToggleFunc }) => {
+const Login = ({ formRef, formStateToggleFunc }) => {
     // Form spring transition
     const springTransition = useSpring({
         from: {
-            y: -500,
+            y: 500,
             opacity: 0
         },
         to: {
@@ -26,7 +26,7 @@ const Login = ({ formStateToggleFunc }) => {
     return (
         <>
             {
-                <animated.div style={springTransition} className="login-register-section">
+                <animated.div style={springTransition} className="login-register-section" ref={formRef}>
                     <div className="login-register-form">
                         <h1 className="section-heading">Login</h1>
                         <InputBox inputType="text" inputPlaceholder="Enter Your Username..." />
@@ -36,7 +36,10 @@ const Login = ({ formStateToggleFunc }) => {
                             <label htmlFor="agree-box">Remember Me</label>
                         </div>
                         <MainButton buttonText="Login" />
-                        <a className="to-reg" href="#" onClick={() => formStateToggleFunc(false)}>Create a New Account</a>
+                        <a href="#" className="to-reg" onClick={(e) => {
+                            e.preventDefault()
+                            formStateToggleFunc(false)
+                        }}>Create a New Account</a>
                     </div>
                 </animated.div>
             }
