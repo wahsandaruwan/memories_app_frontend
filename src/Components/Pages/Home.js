@@ -15,9 +15,12 @@ const Home = () => {
         <>
             <div className="background"></div>
             <div className="overlay"></div>
-            {
-                toggleLoginRegister ? <Login formStateToggleFunc={setToggleLoginRegister} /> : <Register formStateToggleFunc={setToggleLoginRegister} />
-            }
+            <div className="home">
+                <h1 className="logo">Me<span>mori</span>es</h1>
+                {
+                    toggleLoginRegister ? <Login formStateToggleFunc={setToggleLoginRegister} /> : <Register formStateToggleFunc={setToggleLoginRegister} />
+                }
+            </div>
         </>
     )
 }
