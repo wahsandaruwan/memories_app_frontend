@@ -104,6 +104,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 /* -----Logo----- */
 .logo {
@@ -193,4 +194,27 @@ a {
 .login-register-form .to-reg:hover{
   color: #000000;
   transform: translateY(2px);
+}
+
+@media(max-width: 400px){
+  /* -----Common----- */
+  /* Body */
+  body{
+    overflow-y: auto;
+  }
+
+  /* -----Home Page----- */
+  .home{
+    padding: 30px 20px;
+  }
+
+  /* Logo */
+  .logo{
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+
+  .logo > span {
+    font-size: 4.5rem;
+  }
 }
