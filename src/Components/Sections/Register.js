@@ -1,5 +1,6 @@
 // Custom modules
 import { PropTypes } from "prop-types"
+import { useSpring, animated } from "react-spring"
 
 // Custom components
 import InputBox from "../Elements/InputBox"
@@ -7,9 +8,24 @@ import InputCheck from "../Elements/InputCheck"
 import MainButton from "../Elements/MainButton"
 
 const Register = ({ formStateToggleFunc }) => {
+    // Form spring transition
+    const springTransition = useSpring({
+        from: {
+            y: 500,
+            opacity: 0
+        },
+        to: {
+            y: 0,
+            opacity: 1
+        },
+        config: {
+            duration: 500
+        }
+    })
+
     return (
         <>
-            <div className="login-register-section">
+            <animated.div style={springTransition} className="login-register-section">
                 <div className="login-register-form">
                     <h1 className="section-heading">Register</h1>
                     <InputBox inputType="text" inputPlaceholder="Enter Your Full Name..." />
@@ -24,7 +40,7 @@ const Register = ({ formStateToggleFunc }) => {
                     <MainButton buttonText="Login" />
                     <a className="to-reg" href="#" onClick={() => formStateToggleFunc(true)}>Have an Account</a>
                 </div>
-            </div>
+            </animated.div>
         </>
     )
 }
