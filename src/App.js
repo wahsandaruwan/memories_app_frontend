@@ -1,23 +1,10 @@
-// Inbuilt modules
-import { useState } from "react"
-
 // Custom components
-import Login from "./Components/Sections/Login"
-import Register from "./Components/Sections/Register"
+import Home from "./Components/Pages/Home";
 
 const App = () => {
-  // Form state
-  const [toggleLoginRegister, setToggleLoginRegister] = useState(true)
-
-  console.log(toggleLoginRegister)
-
   return (
     <>
-      <div className="background"></div>
-      <div className="overlay"></div>
-      {
-        toggleLoginRegister ? <Login formStateToggleFunc={setToggleLoginRegister} /> : <Register formStateToggleFunc={setToggleLoginRegister} />
-      }
+      <Home />
     </>
   )
 }
