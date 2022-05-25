@@ -117,7 +117,7 @@ a {
   z-index: 99;
   margin: -100px 0 30px 0;
   transition: all 1s ease-in-out;
-  animation: logoAnim 3s alternate 5s infinite ease-in-out both;
+  animation: logoAnim 3s alternate 3s infinite ease-in-out both;
 }
 
 @keyframes logoAnim{
