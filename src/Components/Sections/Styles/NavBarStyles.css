@@ -14,7 +14,7 @@
 
 /* Search Bar */
 .search {
-  flex-basis: 30%;
+  flex-basis: 40%;
   display: flex;
   justify-content: center;
 }
@@ -30,7 +30,6 @@
 
 /* Menu */
 .menu {
-  flex-basis: 30%;
   display: flex;
   justify-content: flex-end;
 }

@@ -27,6 +27,9 @@ const Memory = () => {
                 <p className="details" onClick={() => setToggleDetails(true)}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit...
                 </p>
+                <p className="date-time">
+                    2022-05-25 | 10.05 A.M.
+                </p>
                 <div className="like-dislike">
                     <RiHeartLine />
                     <RiDislikeLine />

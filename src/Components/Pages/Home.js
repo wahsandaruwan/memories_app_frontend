@@ -31,8 +31,6 @@ const Home = () => {
 
     return (
         <>
-            <div className="background"></div>
-            <div className="overlay"></div>
             <div className="home">
                 <animated.h1 style={springTransition} className="logo">Me<span>mori</span>es</animated.h1>
                 {
