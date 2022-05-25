@@ -28,7 +28,7 @@ const Login = ({ formRef, formStateToggleFunc }) => {
             {
                 <animated.div style={springTransition} className="login-register-section" ref={formRef}>
                     <div className="login-register-form">
-                        <h1 className="section-heading">Login</h1>
+                        <h1 className="heading">Login</h1>
                         <InputBox inputType="text" inputPlaceholder="Enter Your Username..." />
                         <InputBox inputType="password" inputPlaceholder="Enter Your Password..." />
                         <div className="input-check">
