@@ -21,7 +21,8 @@
 }
 
 .search .textbox-custom:focus {
-  background-color: #ffeaa7 !important;
+  background-color: #2d3436 !important;
+  color: #ffffff;
 }
 
 /* Menu */
@@ -32,10 +33,7 @@
 }
 
 .menu .button-custom {
-  font-size: 0.9rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 6px 12px !important;
 }
 
 .menu .button-custom:hover {
