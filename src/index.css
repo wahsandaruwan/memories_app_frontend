@@ -126,7 +126,6 @@ a {
 }
 
 /* ----------------Feed Page---------------- */
-
 .feed {
   position: relative;
   z-index: 99;
@@ -138,6 +137,7 @@ a {
   flex-direction: column;
 }
 
+/* -----Memory wall----- */
 .memories-wall {
   width: 100%;
   padding: 0 30px;

@@ -1,9 +1,11 @@
 // Custom modules
 import { MdAddToPhotos, MdViewStream, MdPersonPin, MdMotionPhotosOff } from "react-icons/md"
 
+// Custom components
 import InputBox from "../Elements/InputBox"
 import MainButton from "../Elements/MainButton"
 
+// Custom styling
 import "./Styles/NavBarStyles.css"
 
 const NavBar = () => {

@@ -1,3 +1,4 @@
+// Custom styling
 import "./Styles/FooterStyles.css"
 
 const Footer = () => {
