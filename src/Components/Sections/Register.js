@@ -7,6 +7,9 @@ import InputBox from "../Elements/InputBox"
 import InputCheck from "../Elements/InputCheck"
 import MainButton from "../Elements/MainButton"
 
+// Custom styling
+import "./Styles/LoginRegisterStyles.css"
+
 const Register = ({ formRef, formStateToggleFunc }) => {
     // Form spring transition
     const springTransition = useSpring({

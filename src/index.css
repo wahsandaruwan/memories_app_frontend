@@ -15,7 +15,6 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: #d9d9da;
-  overflow: hidden;
 }
 
 /* -----Typographies----- */
@@ -104,6 +103,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 /* -----Logo----- */
@@ -125,80 +125,25 @@ a {
   color: #ffffff;
 }
 
-/* -----Login & Register Sections----- */
-.login-register-section {
-  position: relative;
-  z-index: 99;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+/* ----------------Feed Page---------------- */
 
-.login-register-form {
+.feed {
   width: 100%;
-  max-width: 350px;
-  background-color: #d9d9da;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px;
-  border-radius: 20px;
-  transition: all 1s ease-in-out;
+  padding: 50px 20px;
 }
 
-/* Heading */
-.login-register-form .heading {
+.memories-wall {
   width: 100%;
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  margin-left: 0.5rem;
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
 }
-
-/* Inputs, Buttons & Links */
-.login-register-form .input-custom,
-.login-register-form .button-custom {
-  width: 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.login-register-form .input-custom:focus {
-  background-color: #ffeaa7 !important;
-}
-
-.login-register-form .button-custom:hover {
-  background-color: #eb832e !important;
-  border-color: #eb832e !important;
-  color: #2d3436 !important;
-}
-
-.login-register-form .input-check {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.login-register-form .input-check > label {
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.login-register-form .input-check > label > span {
-  color: #310e0e;
-  text-decoration: underline;
-}
-
-.login-register-form .to-reg:hover {
-  color: #000000;
-  transform: translateY(2px);
-}
-
-/* ----------------Feed Page---------------- */
 
 @media (max-width: 400px) {
   /* -----Common----- */

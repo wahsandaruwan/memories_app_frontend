@@ -3,7 +3,22 @@ import Memory from "../Sections/Memory"
 const Feed = () => {
     return (
         <>
-            <Memory />
+            <div className="feed">
+                <div className="memories-wall">
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                    <Memory />
+                </div>
+            </div>
         </>
     )
 }
