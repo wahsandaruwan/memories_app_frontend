@@ -198,6 +198,8 @@ a {
   transform: translateY(2px);
 }
 
+/* ----------------Feed Page---------------- */
+
 @media (max-width: 400px) {
   /* -----Common----- */
   /* Body */

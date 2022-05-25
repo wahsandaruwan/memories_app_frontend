@@ -1,9 +1,15 @@
+// Inbuilt modules
 import { useState } from "react"
+
+// Custom modules
 import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine } from "react-icons/ri"
 import { MdSportsHandball } from "react-icons/md"
+
+// Custom styling
 import "./Styles/MemoryStyles.css"
 
 const Memory = () => {
+    // Details state
     const [toggleDetails, setToggleDetails] = useState(false)
 
     return (
@@ -27,6 +33,9 @@ const Memory = () => {
                 </div>
                 <p className={`overlay ${toggleDetails ? "slide-left" : ""}`} onClick={() => setToggleDetails(false)}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus.
+                </p>
+                <p className="user-name">
+                    @whaSand
                 </p>
             </div>
         </>

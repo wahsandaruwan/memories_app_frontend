@@ -10,7 +10,6 @@
   flex-direction: column;
   border-radius: 20px;
   overflow: hidden;
-  margin: 20px;
 }
 
 /* Common */
@@ -76,4 +75,15 @@ svg {
 
 .overlay.slide-left {
   top: 0;
+}
+
+/* Username */
+.user-name {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.8rem;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  margin: 0;
 }
