@@ -2,7 +2,7 @@
 .memory-section {
   position: relative;
   max-width: 400px;
-  background-color: #eb832e;
+  background-color: #0abde3;
   padding: 15px;
   display: flex;
   justify-content: center;
@@ -90,7 +90,8 @@
   top: 0;
   right: 0;
   font-size: 0.8rem;
-  background-color: #ffffff;
+  background-color: #2d3436;
+  color: #ffffff;
   padding: 5px 10px;
   margin: 0;
   cursor: pointer;
