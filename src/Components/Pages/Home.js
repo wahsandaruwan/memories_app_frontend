@@ -15,10 +15,14 @@ const Home = () => {
     // Form spring transition
     const springTransition = useSpring({
         from: {
-            opacity: 0
+            y: -300,
+            opacity: 0,
+            scale: 0
         },
         to: {
-            opacity: 1
+            y: 0,
+            opacity: 1,
+            scale: 1
         },
         config: {
             duration: 500
