@@ -21,7 +21,8 @@ const basicStyles = {
     outline: "none",
     border: "1px solid #2d3436",
     borderRadius: "10px",
-    cursor: "pointer"
+    cursor: "pointer",
+    transition: "all 0.3s ease-in-out"
 }
 
 // Type checking

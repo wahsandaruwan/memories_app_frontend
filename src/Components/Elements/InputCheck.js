@@ -4,7 +4,7 @@ import { PropTypes } from "prop-types"
 const InputCheck = ({ checkBoxId, checkBoxValue, changeFunc }) => {
     return (
         <>
-            <input id={checkBoxId} className="check-custom" style={basicStyles} type="checkbox" value={checkBoxValue} onChange={changeFunc} />
+            <input id={checkBoxId} className="checkbox-custom" style={basicStyles} type="checkbox" value={checkBoxValue} onChange={changeFunc} />
         </>
     )
 }

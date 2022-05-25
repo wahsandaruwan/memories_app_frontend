@@ -1,0 +1,50 @@
+/* -----Navbar Section----- */
+.navbar-section {
+  width: 100%;
+  background-color: #eb832e;
+  padding: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Search Bar */
+.search {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.search .textbox-custom {
+  width: 100%;
+}
+
+.search .textbox-custom:focus {
+  background-color: #ffeaa7 !important;
+}
+
+/* Menu */
+.menu {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu .button-custom {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .button-custom:hover {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #2d3436 !important;
+}
+
+.menu .button-custom > svg {
+  width: 23px;
+  height: 100%;
+}

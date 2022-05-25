@@ -4,7 +4,7 @@ import { PropTypes } from "prop-types"
 const InputBox = ({ inputType, inputValue, inputPlaceholder, changeFunc }) => {
     return (
         <>
-            <input className="input-custom" style={basicStyles} type={inputType} value={inputValue} placeholder={inputPlaceholder} onChange={changeFunc} />
+            <input className="textbox-custom" style={basicStyles} type={inputType} value={inputValue} placeholder={inputPlaceholder} onChange={changeFunc} />
         </>
     )
 }
@@ -18,7 +18,8 @@ const basicStyles = {
     fontSize: "0.95rem",
     outline: "none",
     border: "1px solid #636e72",
-    borderRadius: "10px"
+    borderRadius: "10px",
+    transition: "all 0.3s ease-in-out"
 }
 
 // Type checking

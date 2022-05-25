@@ -4,6 +4,7 @@
   max-width: 400px;
   background-color: #eb832e;
   padding: 15px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,7 @@
 }
 
 /* Common */
-svg {
+.memory-section svg {
   color: #2d3436;
   width: 25px;
   height: 25px;
@@ -22,25 +23,25 @@ svg {
 }
 
 /* Icon */
-.icon > svg {
+.memory-section .icon > svg {
   width: 70px;
   height: 70px;
 }
 
 /* Heading */
-.heading {
+.memory-section .heading {
   text-align: center;
   font-size: 1.5rem;
 }
 
 /* Category */
-.category {
+.memory-section .category {
   text-align: center;
   font-size: 1.2rem;
 }
 
 /* Details */
-.details {
+.memory-section .details {
   text-align: center;
   font-size: 0.9rem;
   transition: all 0.3s ease-in-out;
@@ -48,14 +49,14 @@ svg {
 }
 
 /* Like & Dislike */
-.like-dislike {
+.memory-section .like-dislike {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* Overlay */
-.overlay {
+.memory-section .overlay {
   position: absolute;
   top: -100%;
   left: 0;
@@ -73,7 +74,7 @@ svg {
   transition: all 0.3s ease-in-out;
 }
 
-.overlay.slide-left {
+.memory-section .overlay.slide-left {
   top: 0;
 }
 

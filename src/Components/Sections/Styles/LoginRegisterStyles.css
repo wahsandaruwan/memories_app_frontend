@@ -33,21 +33,10 @@
   margin-left: 0.5rem;
 }
 
-/* Inputs, Buttons & Links */
-.login-register-form .input-custom,
+/* Textboxes & Buttons */
+.login-register-form .textbox-custom,
 .login-register-form .button-custom {
   width: 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.login-register-form .input-custom:focus {
-  background-color: #ffeaa7 !important;
-}
-
-.login-register-form .button-custom:hover {
-  background-color: #eb832e !important;
-  border-color: #eb832e !important;
-  color: #2d3436 !important;
 }
 
 .login-register-form .input-check {
@@ -57,6 +46,16 @@
   align-items: center;
 }
 
+.login-register-form .textbox-custom:focus {
+  background-color: #ffeaa7 !important;
+}
+.login-register-form .button-custom:hover {
+  background-color: #eb832e !important;
+  border-color: #eb832e !important;
+  color: #2d3436 !important;
+}
+
+/* Checkboxes & Labels */
 .login-register-form .input-check > label {
   margin-left: 10px;
   cursor: pointer;
@@ -67,6 +66,7 @@
   text-decoration: underline;
 }
 
+/* Links */
 .login-register-form .to-reg:hover {
   color: #000000;
   transform: translateY(2px);
