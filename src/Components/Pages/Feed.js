@@ -1,4 +1,5 @@
 // Custom components
+import Footer from "../Sections/Footer"
 import Memory from "../Sections/Memory"
 import NavBar from "../Sections/NavBar"
 
@@ -21,6 +22,7 @@ const Feed = () => {
                     <Memory />
                     <Memory />
                 </div>
+                <Footer />
             </div>
         </>
     )
