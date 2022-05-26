@@ -141,7 +141,7 @@ a {
 .memories-wall {
   width: 100%;
   padding: 0 30px;
-  margin: 180px 0 80px 0;
+  margin: 150px 0;
   display: grid;
   gap: 30px;
   justify-content: center;

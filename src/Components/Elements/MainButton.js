@@ -19,7 +19,7 @@ const basicStyles = {
     fontSize: "1rem",
     textAlign: "center",
     outline: "none",
-    border: "1px solid #2d3436",
+    border: "none",
     borderRadius: "10px",
     cursor: "pointer",
     transition: "all 0.3s ease-in-out"

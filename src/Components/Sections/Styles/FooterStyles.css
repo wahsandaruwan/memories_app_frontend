@@ -1,8 +1,12 @@
 /* -----Footer Section----- */
 .footer-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
   width: 100%;
-  padding: 30px;
-  background-color: #eb832e;
+  padding: 20px;
+  background-color: #2d3436;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,5 +16,6 @@
 /* Copyright & Credits */
 .footer-section .copy,
 .footer-section .credits {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  color: #ffffff;
 }
