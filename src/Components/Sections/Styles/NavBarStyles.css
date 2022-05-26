@@ -21,6 +21,7 @@
 
 .search .textbox-custom {
   width: 100%;
+  background-color: #f39446 !important;
 }
 
 .search .textbox-custom:focus {
@@ -34,14 +35,13 @@
 }
 
 .menu .button-custom {
-  background-color: #eb832e !important;
+  background-color: #f39446 !important;
   padding: 6px 12px !important;
-  color: #2d3436 !important;
 }
 
 .menu .button-custom:hover {
   background-color: #ffffff !important;
-  color: #eb832e !important;
+  color: #2d3436 !important;
 }
 
 .menu .button-custom > svg {

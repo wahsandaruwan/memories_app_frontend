@@ -48,10 +48,10 @@
 }
 
 .login-register-form .textbox-custom:focus {
-  background-color: #eb832e !important;
+  background-color: #f39446 !important;
 }
 .login-register-form .button-custom:hover {
-  background-color: #eb832e !important;
+  background-color: #f39446 !important;
   color: #ffffff !important;
 }
 
@@ -68,11 +68,11 @@
 }
 
 .login-register-form .input-check > label > span:hover {
-  color: #eb832e;
+  color: #f39446;
 }
 
 /* Links */
 .login-register-form .to-reg:hover {
-  color: #eb832e;
+  color: #f39446;
   transform: translateY(2px);
 }
