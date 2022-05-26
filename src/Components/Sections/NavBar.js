@@ -1,5 +1,5 @@
 // Custom modules
-import { MdAddToPhotos, MdViewStream, MdPersonPin, MdMotionPhotosOff } from "react-icons/md"
+import { MdAddToPhotos, MdViewStream, MdPersonPin, MdDarkMode, MdMotionPhotosOff, MdOutlineDarkMode } from "react-icons/md"
 
 // Custom components
 import InputBox from "../Elements/InputBox"
@@ -19,6 +19,7 @@ const NavBar = () => {
                     <MainButton buttonText={<MdAddToPhotos />} />
                     <MainButton buttonText={<MdViewStream />} />
                     <MainButton buttonText={<MdPersonPin />} />
+                    <MainButton buttonText={<MdDarkMode />} />
                     <MainButton buttonText={<MdMotionPhotosOff />} />
                 </div>
             </div>
