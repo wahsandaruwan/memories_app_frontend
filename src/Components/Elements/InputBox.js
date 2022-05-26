@@ -18,7 +18,7 @@ const basicStyles = {
     fontSize: "0.95rem",
     outline: "none",
     border: "none",
-    borderRadius: "10px",
+    borderRadius: "5px",
     transition: "all 0.3s ease-in-out"
 }
 

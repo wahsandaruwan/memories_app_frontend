@@ -20,7 +20,7 @@ const basicStyles = {
     textAlign: "center",
     outline: "none",
     border: "none",
-    borderRadius: "10px",
+    borderRadius: "5px",
     cursor: "pointer",
     transition: "all 0.3s ease-in-out"
 }
