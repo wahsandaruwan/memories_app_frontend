@@ -107,7 +107,7 @@ a {
 }
 
 /* -----Logo----- */
-.logo {
+/* .logo {
   position: relative;
   padding: 0 20px;
   font-weight: 800;
@@ -134,7 +134,7 @@ a {
 .logo > span:nth-child(2) {
   font-size: 7rem;
   color: #eb832e;
-}
+} */
 
 /* ----------------Feed Page---------------- */
 .feed {
