@@ -1,6 +1,6 @@
 /* -----Footer Section----- */
 .footer-section {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   z-index: 99;
