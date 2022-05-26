@@ -16,7 +16,7 @@ const basicStyles = {
     color: "#ffffff",
     padding: "10px 20px",
     margin: "5px",
-    fontSize: "1rem",
+    fontSize: "0.9rem",
     textAlign: "center",
     outline: "none",
     border: "none",

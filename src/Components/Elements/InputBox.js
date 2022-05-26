@@ -15,7 +15,7 @@ const basicStyles = {
     minWidth: "200px",
     padding: "12px",
     margin: "5px",
-    fontSize: "0.95rem",
+    fontSize: "0.9rem",
     outline: "none",
     border: "none",
     borderRadius: "5px",
