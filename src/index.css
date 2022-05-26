@@ -40,7 +40,7 @@ a {
   margin: 5px;
   text-decoration: none;
   font-size: 0.9rem;
-  color: #2d3436;
+  color: #ffffff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -110,8 +110,6 @@ a {
 .logo {
   position: relative;
   padding: 0 20px;
-  color: #000000;
-  font-size: 4.5rem;
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
@@ -120,9 +118,22 @@ a {
   transition: all 1s ease-in-out;
 }
 
-.logo > span {
-  font-size: 7rem;
+.logo > span:nth-child(1),
+.logo > span:nth-child(3) {
+  font-size: 4.5rem;
+}
+
+.logo > span:nth-child(1) {
   color: #ffffff;
+}
+
+.logo > span:nth-child(3) {
+  color: #000000;
+}
+
+.logo > span:nth-child(2) {
+  font-size: 7rem;
+  color: #eb832e;
 }
 
 /* ----------------Feed Page---------------- */

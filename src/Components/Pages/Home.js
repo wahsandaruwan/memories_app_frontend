@@ -34,7 +34,7 @@ const Home = () => {
             <div className="background"></div>
             <div className="overlay"></div>
             <div className="home">
-                <animated.h1 style={springTransition} className="logo">Me<span>mori</span>es</animated.h1>
+                <animated.h1 style={springTransition} className="logo"><span>Me</span><span>mori</span><span>es</span></animated.h1>
                 {
                     toggleLoginRegister ? <Login formStateToggleFunc={setToggleLoginRegister} /> : <Register formStateToggleFunc={setToggleLoginRegister} />
                 }

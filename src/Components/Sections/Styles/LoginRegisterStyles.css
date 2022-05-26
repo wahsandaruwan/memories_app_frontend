@@ -12,7 +12,7 @@
 .login-register-form {
   width: 100%;
   max-width: 350px;
-  background-color: #d9d9da;
+  background-color: #2d3436;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,12 +25,13 @@
 /* Heading */
 .login-register-form .heading {
   width: 100%;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  margin-left: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 /* Textboxes & Buttons */
@@ -47,26 +48,31 @@
 }
 
 .login-register-form .textbox-custom:focus {
-  background-color: #ffeaa7 !important;
+  background-color: #eb832e !important;
 }
 .login-register-form .button-custom:hover {
   background-color: #eb832e !important;
-  color: #2d3436 !important;
+  color: #ffffff !important;
 }
 
 /* Checkboxes & Labels */
 .login-register-form .input-check > label {
   margin-left: 10px;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .login-register-form .input-check > label > span {
-  color: #310e0e;
   text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-register-form .input-check > label > span:hover {
+  color: #eb832e;
 }
 
 /* Links */
 .login-register-form .to-reg:hover {
-  color: #000000;
+  color: #eb832e;
   transform: translateY(2px);
 }

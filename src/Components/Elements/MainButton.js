@@ -12,8 +12,8 @@ const MainButton = ({ buttonText, clickFunc }) => {
 // Basic styling
 const basicStyles = {
     display: "inline",
-    backgroundColor: "#2d3436",
-    color: "#ffffff",
+    backgroundColor: "#d9d9da",
+    color: "#2d3436",
     padding: "10px 20px",
     margin: "5px",
     fontSize: "0.9rem",
