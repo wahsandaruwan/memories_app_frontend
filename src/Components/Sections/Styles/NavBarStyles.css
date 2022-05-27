@@ -36,15 +36,23 @@
 
 .menu .button-custom {
   background-color: #f39446 !important;
-  padding: 6px 12px !important;
+  padding: 12px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu .button-custom:hover {
   background-color: #ffffff !important;
-  color: #2d3436 !important;
 }
 
 .menu .button-custom > svg {
+  margin: 0 !important;
   width: 18px;
   height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu .button-custom:hover > svg {
+  color: #2d3436;
 }

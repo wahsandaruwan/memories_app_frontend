@@ -2,11 +2,12 @@
 import { useState } from "react"
 
 // Custom modules
-import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine } from "react-icons/ri"
+import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine, RiEditLine, RiDeleteBin2Line } from "react-icons/ri"
 import { MdSportsHandball } from "react-icons/md"
 
 // Custom styling
 import "./Styles/MemoryStyles.css"
+import MainButton from "../Elements/MainButton"
 
 const Memory = () => {
     // Details state
@@ -31,15 +32,19 @@ const Memory = () => {
                     2022-05-25 | 10.05 A.M.
                 </p>
                 <div className="like-dislike">
-                    <RiHeartLine />
-                    <RiDislikeLine />
+                    <MainButton buttonText={<RiHeartLine />} />
+                    <MainButton buttonText={<RiDislikeLine />} />
                 </div>
                 <p className={`overlay ${toggleDetails ? "slide-left" : ""}`} onClick={() => setToggleDetails(false)}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus.
                 </p>
-                <p className="user-name">
+                <div className="user-name">
                     @whaSand
-                </p>
+                </div>
+                <div className="memory-buttons">
+                    <MainButton buttonText={<RiEditLine />} />
+                    <MainButton buttonText={<RiDeleteBin2Line />} />
+                </div>
             </div>
         </>
     )

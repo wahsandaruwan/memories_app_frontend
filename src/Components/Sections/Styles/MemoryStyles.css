@@ -60,6 +60,24 @@
   align-items: center;
 }
 
+.memory-section .like-dislike .button-custom {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-section .like-dislike .button-custom > svg {
+  color: #2d3436;
+  transition: all 0.3s ease-in-out;
+}
+
+.memory-section .like-dislike .button-custom > svg:hover {
+  color: #ffffff;
+}
+
 /* Overlay */
 .memory-section .overlay {
   position: absolute;
@@ -85,7 +103,7 @@
 }
 
 /* Username */
-.user-name {
+.memory-section .user-name {
   position: absolute;
   top: 0;
   right: 0;
@@ -95,4 +113,34 @@
   padding: 5px 10px;
   margin: 0;
   cursor: pointer;
+}
+
+/* Edit & delete */
+.memory-section .memory-buttons {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-section .memory-buttons .button-custom {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 7px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.memory-section .memory-buttons .button-custom > svg {
+  margin: 0 !important;
+  width: 20px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.memory-section .memory-buttons .button-custom > svg:hover {
+  color: #ffffff;
 }
