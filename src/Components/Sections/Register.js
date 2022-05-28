@@ -1,8 +1,8 @@
-// Custom modules
+// Third-party components & modules
 import { PropTypes } from "prop-types"
 import { useSpring, animated } from "react-spring"
 
-// Custom components
+// Custom components & modules
 import InputBox from "../Elements/InputBox"
 import InputCheck from "../Elements/InputCheck"
 import MainButton from "../Elements/MainButton"

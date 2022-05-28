@@ -1,4 +1,4 @@
-// Custom modules
+// Third-party components & modules
 import { useSpring, animated } from "react-spring"
 
 const Logo = () => {

@@ -130,6 +130,32 @@ a {
   grid-template-columns: auto auto auto;
 }
 
+/* ----------------Light Theme---------------- */
+/* -----Feed, navbar & footer----- */
+#light,
+#light .navbar-section,
+#light .footer-section {
+  background-color: #e9e9e9;
+}
+
+/* -----Navbar----- */
+#light .navbar-section .search .textbox-custom:focus,
+#light .navbar-section .menu .button-custom:hover {
+  background-color: #bebebd !important;
+}
+
+/* -----Memory----- */
+#light .memory-section .overlay {
+  background-color: #bebebd;
+  color: #2d3436;
+}
+
+/* -----Footer----- */
+#light .footer-section .credits,
+#light .footer-section .copy {
+  color: #2d3436;
+}
+
 /* ----------------Media Queries---------------- */
 @media (max-width: 550px) {
   /* -----Common----- */

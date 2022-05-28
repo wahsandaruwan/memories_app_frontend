@@ -1,7 +1,7 @@
-// Inbuilt modules
+// Inbuilt components & modules
 import { useState } from "react"
 
-// Custom modules
+// Third-party components & modules
 import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine, RiEditLine, RiDeleteBin2Line } from "react-icons/ri"
 import { MdSportsHandball } from "react-icons/md"
 
@@ -15,7 +15,7 @@ const Memory = () => {
 
     return (
         <>
-            <div className="memory-section">
+            <div className="memory-section" >
                 <div className="icon">
                     <MdSportsHandball />
                 </div>

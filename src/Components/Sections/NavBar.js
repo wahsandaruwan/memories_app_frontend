@@ -1,14 +1,23 @@
-// Custom modules
-import { MdAddToPhotos, MdViewStream, MdPersonPin, MdDarkMode, MdMotionPhotosOff, MdOutlineDarkMode } from "react-icons/md"
+// Inbuilt components & modules
+import { useContext } from "react"
 
-// Custom components
+// Third-party components & modules
+import { MdAddToPhotos, MdViewStream, MdPersonPin, MdDarkMode, MdMotionPhotosOff, MdWbSunny } from "react-icons/md"
+
+// Custom components & modules
 import InputBox from "../Elements/InputBox"
 import MainButton from "../Elements/MainButton"
+
+// Custom contexts
+import { ThemeContext } from "../../Contexts/ThemeContext"
 
 // Custom styling
 import "./Styles/NavBarStyles.css"
 
 const NavBar = () => {
+    // Get context values
+    const { theme, toggleTheme } = useContext(ThemeContext)
+
     return (
         <>
             <div className="navbar-section">
@@ -19,7 +28,7 @@ const NavBar = () => {
                     <MainButton buttonText={<MdAddToPhotos />} />
                     <MainButton buttonText={<MdViewStream />} />
                     <MainButton buttonText={<MdPersonPin />} />
-                    <MainButton buttonText={<MdDarkMode />} />
+                    <MainButton buttonText={theme === "light" ? <MdDarkMode /> : <MdWbSunny />} clickFunc={toggleTheme} />
                     <MainButton buttonText={<MdMotionPhotosOff />} />
                 </div>
             </div>

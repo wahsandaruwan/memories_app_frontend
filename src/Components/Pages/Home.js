@@ -1,10 +1,8 @@
-// Inbuilt modules
+// Inbuilt components & modules
 import { useState } from "react"
 
-// Custom modules
+// Custom components & modules
 import Logo from "../Elements/Logo"
-
-// Custom components
 import Login from "../Sections/Login"
 import Register from "../Sections/Register"
 

@@ -1,4 +1,4 @@
-// Custom modules
+// Third-party components & modules
 import { PropTypes } from "prop-types"
 
 const InputCheck = ({ checkBoxId, checkBoxValue, changeFunc }) => {
