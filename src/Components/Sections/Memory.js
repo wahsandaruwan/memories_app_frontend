@@ -2,7 +2,7 @@
 import { useState } from "react"
 
 // Third-party components & modules
-import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine, RiEditLine, RiDeleteBin2Line } from "react-icons/ri"
+import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine, RiEditLine, RiDeleteBin2Line, RiAttachmentLine } from "react-icons/ri"
 import { MdSportsHandball } from "react-icons/md"
 
 // Custom styling
@@ -35,9 +35,12 @@ const Memory = () => {
                     <MainButton buttonText={<RiHeartLine />} />
                     <MainButton buttonText={<RiDislikeLine />} />
                 </div>
-                <p className={`overlay ${toggleDetails ? "slide-left" : ""}`} onClick={() => setToggleDetails(false)}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus.
-                </p>
+                <div className={`overlay ${toggleDetails ? "slide-left" : ""}`} onClick={() => setToggleDetails(false)}>
+                    <p className="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus.
+                    </p>
+                    <MainButton buttonText={<RiAttachmentLine />} />
+                </div>
                 <div className="user-name">
                     @whaSand
                 </div>

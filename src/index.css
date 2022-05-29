@@ -44,6 +44,15 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+/* -----SVG icons----- */
+svg {
+  margin: 0;
+  color: #2d3436;
+  width: 20px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
 /* -----Background----- */
 .background {
   position: fixed;
@@ -95,6 +104,15 @@ a {
   background-color: rgba(36, 35, 35, 0.6);
 }
 
+/* -----Main button tooltip----- */
+.tool-tip {
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  color: #ffffff;
+  max-width: 200px !important;
+}
+
 /* ----------------Home Page---------------- */
 .home {
   width: 100%;
@@ -117,6 +135,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: all 0.3s ease-in-out;
 }
 
 /* -----Memory wall----- */
@@ -147,7 +166,18 @@ a {
 /* -----Memory----- */
 #light .memory-section .overlay {
   background-color: #bebebd;
+}
+
+#light .memory-section .overlay .paragraph {
   color: #2d3436;
+}
+
+#light .memory-section .overlay .button-custom {
+  background-color: #ffffff !important;
+}
+
+#light .memory-section .overlay .button-custom:hover {
+  background-color: #f39446 !important;
 }
 
 /* -----Footer----- */
