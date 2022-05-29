@@ -35,8 +35,8 @@ const Memory = () => {
                     <MainButton buttonText={<RiHeartLine />} />
                     <MainButton buttonText={<RiDislikeLine />} />
                 </div>
-                <div className={`overlay ${toggleDetails ? "slide-left" : ""}`} onClick={() => setToggleDetails(false)}>
-                    <p className="paragraph">
+                <div className={`overlay ${toggleDetails ? "slide-left" : ""}`}>
+                    <p className="paragraph" onClick={() => setToggleDetails(false)}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus.
                     </p>
                     <MainButton buttonText={<RiAttachmentLine />} />
