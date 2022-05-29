@@ -2,7 +2,7 @@
 import { useContext } from "react"
 
 // Third-party components & modules
-import { MdAddToPhotos, MdViewStream, MdPersonPin, MdDarkMode, MdMotionPhotosOff, MdWbSunny } from "react-icons/md"
+import { MdHome, MdAddToPhotos, MdViewStream, MdPersonPin, MdDarkMode, MdMotionPhotosOff, MdWbSunny } from "react-icons/md"
 
 // Custom components & modules
 import InputBox from "../Elements/InputBox"
@@ -26,6 +26,7 @@ const NavBar = () => {
                     <InputBox inputType="text" inputPlaceholder="Search Memories..." />
                 </div>
                 <div className="menu">
+                    <ToolTip toolTipText="All memories"><MainButton buttonText={<MdHome />} /></ToolTip>
                     <ToolTip toolTipText="Add new memory"><MainButton buttonText={<MdAddToPhotos />} /></ToolTip>
                     <ToolTip toolTipText="My memories"><MainButton buttonText={<MdViewStream />} /></ToolTip>
                     <ToolTip toolTipText="My Account"><MainButton buttonText={<MdPersonPin />} /></ToolTip>
