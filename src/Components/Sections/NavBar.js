@@ -7,13 +7,13 @@ import { MdHome, MdAddToPhotos, MdViewStream, MdPersonPin, MdDarkMode, MdMotionP
 // Custom components & modules
 import InputBox from "../Elements/InputBox"
 import MainButton from "../Elements/MainButton"
+import ToolTip from "../Elements/ToolTip"
 
 // Custom contexts
 import { ThemeContext } from "../../Contexts/ThemeContext"
 
 // Custom styling
 import "./Styles/NavBarStyles.css"
-import ToolTip from "../Elements/ToolTip"
 
 const NavBar = () => {
     // Get context values

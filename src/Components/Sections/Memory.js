@@ -5,9 +5,12 @@ import { useState } from "react"
 import { RiHeartFill, RiHeartLine, RiDislikeFill, RiDislikeLine, RiEditLine, RiDeleteBin2Line, RiAttachmentLine } from "react-icons/ri"
 import { MdSportsHandball } from "react-icons/md"
 
+// Custom components & modules
+import MainButton from "../Elements/MainButton"
+import ToolTip from "../Elements/ToolTip"
+
 // Custom styling
 import "./Styles/MemoryStyles.css"
-import MainButton from "../Elements/MainButton"
 
 const Memory = () => {
     // Details state
