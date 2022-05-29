@@ -42,14 +42,14 @@ const Memory = () => {
                     <p className="paragraph" onClick={() => setToggleDetails(false)}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque, perspiciatis velit quaerat sed incidunt numquam. Labore incidunt iusto perspiciatis earum. Fuga excepturi facilis delectus.
                     </p>
-                    <MainButton buttonText={<RiAttachmentLine />} />
+                    <ToolTip toolTipText="Attachment"><MainButton buttonText={<RiAttachmentLine />} /></ToolTip>
                 </div>
                 <div className="user-name">
                     @whaSand
                 </div>
                 <div className="memory-buttons">
-                    <MainButton buttonText={<RiEditLine />} />
-                    <MainButton buttonText={<RiDeleteBin2Line />} />
+                    <ToolTip toolTipText="Edit"><MainButton buttonText={<RiEditLine />} /></ToolTip>
+                    <ToolTip toolTipText="Delete"><MainButton buttonText={<RiDeleteBin2Line />} /></ToolTip>
                 </div>
             </div>
         </>

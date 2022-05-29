@@ -101,7 +101,11 @@
 }
 
 .memory-section .overlay .button-custom {
-  padding: 5px !important;
+  margin: 0 !important;
+  padding: 8px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 
 .memory-section .overlay .button-custom:hover {
@@ -138,7 +142,7 @@
 .memory-section .memory-buttons .button-custom {
   background-color: transparent !important;
   padding: 0 !important;
-  margin: 8px !important;
+  margin: 0 !important;
   display: flex !important;
   justify-content: center;
   align-items: center;
