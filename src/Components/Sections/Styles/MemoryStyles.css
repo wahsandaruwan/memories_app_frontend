@@ -57,7 +57,7 @@
 .memory-section .like-dislike .button-custom {
   background-color: transparent !important;
   padding: 0 !important;
-  margin: 10px !important;
+  margin: 0 !important;
   display: flex !important;
   justify-content: center;
   align-items: center;

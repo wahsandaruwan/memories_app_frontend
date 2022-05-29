@@ -35,8 +35,8 @@ const Memory = () => {
                     2022-05-25 | 10.05 A.M.
                 </p>
                 <div className="like-dislike">
-                    <MainButton buttonText={<RiHeartLine />} />
-                    <MainButton buttonText={<RiDislikeLine />} />
+                    <ToolTip toolTipText="Like"><MainButton buttonText={<RiHeartLine />} /></ToolTip>
+                    <ToolTip toolTipText="Dislike"><MainButton buttonText={<RiDislikeLine />} /></ToolTip>
                 </div>
                 <div className={`overlay ${toggleDetails ? "slide-left" : ""}`}>
                     <p className="paragraph" onClick={() => setToggleDetails(false)}>

@@ -159,7 +159,8 @@ svg {
   background-color: #bebebd !important;
 }
 
-#light .navbar-section .menu > .tooltip-custom > span {
+/* -----Tooltip----- */
+#light .tooltip-custom > span {
   background-color: #2d3436 !important;
   color: #ffffff !important;
 }
