@@ -105,12 +105,8 @@ svg {
 }
 
 /* -----Main button tooltip----- */
-.tool-tip {
-  position: absolute;
-  top: -100%;
-  right: -100%;
-  color: #ffffff;
-  max-width: 200px !important;
+.tooltip-custom:hover > span {
+  display: block !important;
 }
 
 /* ----------------Home Page---------------- */
@@ -161,6 +157,11 @@ svg {
 #light .navbar-section .search .textbox-custom:focus,
 #light .navbar-section .menu .button-custom:hover {
   background-color: #bebebd !important;
+}
+
+#light .navbar-section .menu > .tooltip-custom > span {
+  background-color: #2d3436 !important;
+  color: #ffffff !important;
 }
 
 /* -----Memory----- */

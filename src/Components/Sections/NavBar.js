@@ -13,6 +13,7 @@ import { ThemeContext } from "../../Contexts/ThemeContext"
 
 // Custom styling
 import "./Styles/NavBarStyles.css"
+import ToolTip from "../Elements/ToolTip"
 
 const NavBar = () => {
     // Get context values
@@ -25,11 +26,11 @@ const NavBar = () => {
                     <InputBox inputType="text" inputPlaceholder="Search Memories..." />
                 </div>
                 <div className="menu">
-                    <MainButton buttonText={<MdAddToPhotos />} />
-                    <MainButton buttonText={<MdViewStream />} />
-                    <MainButton buttonText={<MdPersonPin />} />
-                    <MainButton buttonText={theme === "light" ? <MdDarkMode /> : <MdWbSunny />} clickFunc={toggleTheme} />
-                    <MainButton buttonText={<MdMotionPhotosOff />} />
+                    <ToolTip toolTipText="Add new memory"><MainButton buttonText={<MdAddToPhotos />} /></ToolTip>
+                    <ToolTip toolTipText="My memories"><MainButton buttonText={<MdViewStream />} /></ToolTip>
+                    <ToolTip toolTipText="My Account"><MainButton buttonText={<MdPersonPin />} /></ToolTip>
+                    <ToolTip toolTipText={theme === "dark" ? "Toggle light mode" : "Toggle dark mode"}><MainButton buttonText={theme === "light" ? <MdDarkMode /> : <MdWbSunny />} clickFunc={toggleTheme} /></ToolTip>
+                    <ToolTip toolTipText="Logout"><MainButton buttonText={<MdMotionPhotosOff />} /></ToolTip>
                 </div>
             </div>
         </>

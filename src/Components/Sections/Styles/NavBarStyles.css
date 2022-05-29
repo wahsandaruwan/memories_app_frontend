@@ -38,7 +38,7 @@
 .menu .button-custom {
   background-color: #f39446 !important;
   padding: 12px !important;
-  margin: 10px !important;
+  margin: 0 !important;
   display: flex !important;
   justify-content: center;
   align-items: center;
