@@ -49,12 +49,5 @@
 }
 
 .menu .button-custom > svg {
-  margin: 0 !important;
   width: 18px;
-  height: 100%;
-  transition: all 0.3s ease-in-out;
-}
-
-.menu .button-custom:hover > svg {
-  color: #2d3436;
 }
